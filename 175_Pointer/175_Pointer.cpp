@@ -10,3 +10,7 @@ public:
 void mahasiswa::shownim() {
 	cout << "No. induk = " << nim << endl;
 }
+
+int main() {
+
+}
