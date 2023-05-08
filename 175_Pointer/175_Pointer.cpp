@@ -18,4 +18,10 @@ int main() {
 	mahasiswa ref = mhs;
 	ref.nim = 2;
 	mhs.shownim();
+
+	mahasiswa* pmhs = &mhs;
+	pmhs->nim = 3;
+	mhs.shownim();
+	system("pause");
+	return 0;
 }
