@@ -6,3 +6,7 @@ public:
 	int nim;
 	void shownim();
 };
+
+void mahasiswa::shownim() {
+	cout << "No. induk = " << nim << endl;
+}
